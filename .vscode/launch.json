@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SCDrecursion",
+            "request": "launch",
+            "mainClass": "SCDrecursion",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
+            "name": "DigitCount",
+            "request": "launch",
+            "mainClass": "DigitCount",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
+            "name": "SumRecursion",
+            "request": "launch",
+            "mainClass": "SumRecursion",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
+            "name": "ReversRecursion",
+            "request": "launch",
+            "mainClass": "ReversRecursion",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "Table",
             "request": "launch",
             "mainClass": "Table",
