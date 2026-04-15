@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "butterfly",
+            "request": "launch",
+            "mainClass": "butterfly",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "SCDrecursion",
             "request": "launch",
             "mainClass": "SCDrecursion",
