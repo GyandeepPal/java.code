@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "dymand",
+            "request": "launch",
+            "mainClass": "dymand",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "pellimdrom",
             "request": "launch",
             "mainClass": "pellimdrom",
