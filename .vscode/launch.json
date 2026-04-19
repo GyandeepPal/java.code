@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MultiplyFunction",
+            "request": "launch",
+            "mainClass": "MultiplyFunction",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "SumFunction",
             "request": "launch",
             "mainClass": "SumFunction",
