@@ -2,6 +2,10 @@ import java.util.*;
 public class factorialFunction {
     public static void printfoctorial(int n){
         // loop
+        if(n<0){
+            System.out.println("invalide number");
+            return;
+        }
         int factorial=1;
         for(int i=n; i>=1; i--){
             factorial = factorial*i;
