@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Function",
+            "request": "launch",
+            "mainClass": "Function",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "dymand",
             "request": "launch",
             "mainClass": "dymand",
