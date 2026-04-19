@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "factorialFunction",
+            "request": "launch",
+            "mainClass": "factorialFunction",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "MultiplyFunction",
             "request": "launch",
             "mainClass": "MultiplyFunction",
