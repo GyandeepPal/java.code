@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AverageInput",
+            "request": "launch",
+            "mainClass": "AverageInput",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "factorialFunction",
             "request": "launch",
             "mainClass": "factorialFunction",
