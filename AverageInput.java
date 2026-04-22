@@ -4,7 +4,7 @@ public class AverageInput {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Kitne number dalne hain: ");
+        System.out.print("Kitne number dalne hai: ");
         int n = sc.nextInt();
 
         int sum = 0;
