@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TwoDArrayP_2",
+            "request": "launch",
+            "mainClass": "Array.TwoDArrayP_2",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "TwoDArray",
             "request": "launch",
             "mainClass": "Array.TwoDArray",
