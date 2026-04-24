@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TwoDArray",
+            "request": "launch",
+            "mainClass": "Array.TwoDArray",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
+            "name": "Names",
+            "request": "launch",
+            "mainClass": "Array.Names",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "Array_marks",
             "request": "launch",
             "mainClass": "Array_marks",
