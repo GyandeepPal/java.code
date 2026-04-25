@@ -1,5 +1,5 @@
 // import java.util.*;
-package Array;
+// package Array;
 
 import java.util.Scanner;
 
