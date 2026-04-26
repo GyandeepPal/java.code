@@ -21,6 +21,7 @@ public class TwoDArrayP_2 {
                     // System.out.println("x foumd at location"+""+j);
                 }
             }
+            System.out.println();
         }
     }
 }

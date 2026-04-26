@@ -1,7 +1,7 @@
-// import java.util.*;
+import java.util.*;
 // package Array;
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class TwoDArray {
     public static void main(String[] args) {
@@ -19,7 +19,7 @@ public class TwoDArray {
         }
         for(int i=0;i<rows; i++){
             for(int j=0; j<cols; j++){
-                System.out.print(num[i][j]+"\n ");
+                System.out.println(num[i][j] + " ");
             }
             System.out.println();
         }

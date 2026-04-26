@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "String_1",
+            "request": "launch",
+            "mainClass": "Strings.String_1",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
+            "name": "Names",
+            "request": "launch",
+            "mainClass": "Names",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
+            "name": "TwoDArray",
+            "request": "launch",
+            "mainClass": "TwoDArray",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
+            "name": "TwoDArrayP_2",
+            "request": "launch",
+            "mainClass": "TwoDArrayP_2",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "TwoDArrayP_2",
             "request": "launch",
             "mainClass": "Array.TwoDArrayP_2",
