@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "revers",
+            "request": "launch",
+            "mainClass": "Strings.revers",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
+            "name": "Append",
+            "request": "launch",
+            "mainClass": "Strings.Append",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
+            "name": "Immutable",
+            "request": "launch",
+            "mainClass": "Strings.Immutable",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "subString",
             "request": "launch",
             "mainClass": "Strings.subString",
