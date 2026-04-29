@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "selection",
+            "request": "launch",
+            "mainClass": "Sorting.selection",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
+            "name": "Sorting",
+            "request": "launch",
+            "mainClass": "Sorting.Sorting",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
+            "name": "bubbal",
+            "request": "launch",
+            "mainClass": "Sorting.bubbal",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
+            "name": "updateBit",
+            "request": "launch",
+            "mainClass": "Strings.updateBit",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
+            "name": "clearBit",
+            "request": "launch",
+            "mainClass": "Strings.clearBit",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
+            "name": "setBit",
+            "request": "launch",
+            "mainClass": "Strings.setBit",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "bitMask",
             "request": "launch",
             "mainClass": "Strings.bitMask",
