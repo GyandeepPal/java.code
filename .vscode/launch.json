@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "insertion",
+            "request": "launch",
+            "mainClass": "Sorting.insertion",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "selection",
             "request": "launch",
             "mainClass": "Sorting.selection",
