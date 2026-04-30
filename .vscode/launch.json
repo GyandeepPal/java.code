@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "printNumber",
+            "request": "launch",
+            "mainClass": "Recursion.printNumber",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "insertion",
             "request": "launch",
             "mainClass": "Sorting.insertion",
