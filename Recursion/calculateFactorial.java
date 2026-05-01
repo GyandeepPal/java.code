@@ -1,3 +1,4 @@
+// print factorial of a number n
 package Recursion;
 
 public class calculateFactorial {

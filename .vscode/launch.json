@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "fabunacci",
+            "request": "launch",
+            "mainClass": "Recursion.fabunacci",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "calculateFactorial",
             "request": "launch",
             "mainClass": "Recursion.calculateFactorial",
