@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "calculateFactorial",
+            "request": "launch",
+            "mainClass": "Recursion.calculateFactorial",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
+            "name": "sum",
+            "request": "launch",
+            "mainClass": "Recursion.sum",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "printNumber",
             "request": "launch",
             "mainClass": "Recursion.printNumber",
