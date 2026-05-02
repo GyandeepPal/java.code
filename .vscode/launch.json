@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "calcPower",
+            "request": "launch",
+            "mainClass": "Recursion.calcPower",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
+            "name": "h",
+            "request": "launch",
+            "mainClass": "Recursion.h",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "fabunacci",
             "request": "launch",
             "mainClass": "Recursion.fabunacci",
