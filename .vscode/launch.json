@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Hanoi",
+            "request": "launch",
+            "mainClass": "Recursion.Hanoi",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "calcPower",
             "request": "launch",
             "mainClass": "Recursion.calcPower",
