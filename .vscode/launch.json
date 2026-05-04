@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "isShorting",
+            "request": "launch",
+            "mainClass": "Recursion.isShorting",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "Occurence",
             "request": "launch",
             "mainClass": "Recursion.Occurence",
