@@ -3,10 +3,10 @@ package Recursion;
 public class revers {
     public static void printRevs(String str, int indx){
         if(indx == 0){
-        System.out.println(str.charAt(indx));
+        System.out.print(str.charAt(indx));
         return;
         }
-        System.out.println(str.charAt(indx));
+        System.out.print(str.charAt(indx));
         printRevs(str, indx-1);
     }
     

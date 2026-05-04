@@ -4,7 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "Occurence",
+            "request": "launch",
+            "mainClass": "Recursion.Occurence",
+            "projectName": "java_a325078a"
+        },
         {
             "type": "java",
             "name": "revers",
