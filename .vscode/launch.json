@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "removeDuplicate",
+            "request": "launch",
+            "mainClass": "Recursion.removeDuplicate",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
+            "name": "moveString",
+            "request": "launch",
+            "mainClass": "Recursion.moveString",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "isShorting",
             "request": "launch",
             "mainClass": "Recursion.isShorting",
