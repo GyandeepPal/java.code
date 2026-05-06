@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "keyCombination",
+            "request": "launch",
+            "mainClass": "Recursion.keyCombination",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
+            "name": "uniqueSubSequences",
+            "request": "launch",
+            "mainClass": "Recursion.uniqueSubSequences",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
+            "name": "subSequences",
+            "request": "launch",
+            "mainClass": "Recursion.subSequences",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "removeDuplicate",
             "request": "launch",
             "mainClass": "Recursion.removeDuplicate",
