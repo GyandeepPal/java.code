@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FirstLastOcc",
+            "request": "launch",
+            "mainClass": "Recursion.FirstLastOcc",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "Fibonacci",
             "request": "launch",
             "mainClass": "Recursion.Fibonacci",
