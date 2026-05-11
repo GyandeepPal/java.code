@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FloorPlace",
+            "request": "launch",
+            "mainClass": "Recursion.FloorPlace",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "counPaths",
             "request": "launch",
             "mainClass": "counPaths",
