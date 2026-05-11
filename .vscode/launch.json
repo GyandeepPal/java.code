@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "counPaths",
+            "request": "launch",
+            "mainClass": "counPaths",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "permutation",
             "request": "launch",
             "mainClass": "permutation",
