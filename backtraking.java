@@ -1,4 +1,4 @@
-public class backtaiking {
+public class backtraking {
 
     static void changeArr(int arr[], int i, int val) {
 

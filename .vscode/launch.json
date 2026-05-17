@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "backtraking",
+            "request": "launch",
+            "mainClass": "backtraking",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "backtaiking",
             "request": "launch",
             "mainClass": "backtaiking",
