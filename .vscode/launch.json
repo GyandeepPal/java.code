@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "backtaiking",
+            "request": "launch",
+            "mainClass": "backtaiking",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "FloorPlace",
             "request": "launch",
             "mainClass": "Recursion.FloorPlace",
