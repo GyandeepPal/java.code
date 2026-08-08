@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "index",
+            "request": "launch",
+            "mainClass": "index",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "backtraking",
             "request": "launch",
             "mainClass": "backtraking",
