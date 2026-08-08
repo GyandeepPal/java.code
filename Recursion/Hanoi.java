@@ -15,3 +15,13 @@ public class Hanoi {
         TowerOfHanoi(n, "S", "H", "D");
     }
 }
+
+
+
+
+// public class Hanoi {
+
+//     public static void main(String[] args) {
+//         System.out.println("hello");
+//     }
+// }
