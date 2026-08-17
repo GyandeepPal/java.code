@@ -5,8 +5,9 @@ public class Function {
         return;
     }
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        String name = sc.next();
-        printMyName(name);
+        try (Scanner Gyan = new Scanner(System.in)) {
+            String name = Gyan.next();
+            printMyName(name);
+        }
     }
 }

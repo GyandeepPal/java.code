@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "hello2",
+            "request": "launch",
+            "mainClass": "hello2",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "index",
             "request": "launch",
             "mainClass": "index",
