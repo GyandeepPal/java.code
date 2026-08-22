@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "typeConversion",
+            "request": "launch",
+            "mainClass": "typeConversion",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "Question",
             "request": "launch",
             "mainClass": "Question",
