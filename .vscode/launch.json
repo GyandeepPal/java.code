@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "relation",
+            "request": "launch",
+            "mainClass": "relation",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
+            "name": "RelationalOperator",
+            "request": "launch",
+            "mainClass": "RelationalOperator",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "typeConversion",
             "request": "launch",
             "mainClass": "typeConversion",
