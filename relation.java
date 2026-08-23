@@ -14,8 +14,8 @@ public class relation {
 
       boolean e=(a<c);
       boolean f=(a<=c);
-      System.out.println(e);//false
-      System.out.println(f);//true
+      System.out.println(e);  //false
+      System.out.println(f); //true
 
    }
 }

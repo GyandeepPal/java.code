@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Bitwise",
+            "request": "launch",
+            "mainClass": "Bitwise",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "relation",
             "request": "launch",
             "mainClass": "relation",
