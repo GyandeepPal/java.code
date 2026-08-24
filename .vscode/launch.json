@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "logicalOpeator",
+            "request": "launch",
+            "mainClass": "logicalOpeator",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "Bitwise",
             "request": "launch",
             "mainClass": "Bitwise",
