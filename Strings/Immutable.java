@@ -5,11 +5,11 @@ public class Immutable {
         StringBuilder std = new StringBuilder("My name is tony");
         System.out.println(std);
         // char at index 0
-        System.out.println(std.charAt(0));
+        System.out.println(std.charAt(8));
 
 
         // set char at index 0
-        std.setCharAt(14,'t');
+        std.setCharAt(1,'t');
         System.out.println(std+" ");
         //  delete 
         std.delete(0, 5);

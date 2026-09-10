@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "switch_case",
+            "request": "launch",
+            "mainClass": "switch_case",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "logicalOpeator",
             "request": "launch",
             "mainClass": "logicalOpeator",
