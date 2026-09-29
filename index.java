@@ -31,39 +31,66 @@ public class index {
 
         // switch_case
 
-        int a = 4;
-        int s = 22;
+        // int a = 4;
+        // int s = 22;
 
-        switch (a) {
+        // switch (a) {
+        // case 1:
+        // System.out.println("Hello");
+        // break;
+        // case 2:
+        // System.out.println("A is 2 ");
+        // break;
+        // case 3:
+        // System.out.println("A is 3");
+        // case 4:
+        // System.out.println("A is 4");
+        // break;
+        // default:
+        // System.out.println("A is greter than 4");
+        // }
+        // switch (s) {
+        // case 1:
+        // System.out.println(" s is 1");
+        // break;
+        // case 2:
+        // System.out.println("s is 1");
+        // break;
+        // case 3:
+        // System.out.println("s is 2");
+        // case 4:
+        // System.out.println("s is 4");
+        // break;
+        // default:
+        // System.out.println("s is greater than four");
+
+        // }
+
+        // Nested switch case //
+
+        int i = 4;
+        int j = 3;
+
+        switch (i) {
             case 1:
-                System.out.println("Hello");
+                System.out.println("i is 1");
                 break;
             case 2:
-                System.out.println("A is 2 ");
+                System.out.println("i is 1");
                 break;
             case 3:
-                System.out.println("A is 3");
+                System.out.println("i is 1");
+                break;
             case 4:
-                System.out.println("A is 4");
-                break;
-            default:
-                System.out.println("A is greter than 4");
-        }
-        switch (s) {
-            case 1:
-                System.out.println(" s is 1");
-                break;
-            case 2:
-                System.out.println("s is 1");
-                break;
-            case 3:
-                System.out.println("s is 2");
-            case 4:
-                System.out.println("s is 4");
-                break;
-            default:
-                System.out.println("s is greater than four");
+                switch (j) {
+                    case 3:
+                        System.out.println("Gyan");
+                        break;
 
+                }
+            default:
+                break;
         }
+
     }
 }
