@@ -76,15 +76,93 @@ public class forLoop {
         // }
 
         /* --------Nested loop-------- */
-        int n = 5;
-        for (int i = 0; i <= n; i++) {
-            for (int j = 0; j <= i; j++) {
-                System.out.print("X ");
+        // int n = 5;
+        // for (int i = 0; i <= n; i++) {
+        // for (int j = 0; j <= i; j++) {
+        // System.out.print("X ");
+        // }
+
+        // System.out.println();
+        // }
+
+        /* --------Nested loop-------- */
+        // for (int i = 1; i <= 5; i++) {
+
+        // if (i == 3) {
+        // continue;
+        // }
+
+        // System.out.println(i);
+        // }
+
+        /* --------Nested loop-------- */
+
+
+
+        // for (int i = 0; i <= 10; i++) {
+        // if (i % 2 == 0) {
+        // continue;
+        // }
+        // System.out.println(i);
+        // }
+
+        // for (int i = 0; i <= 8; i++) {
+        //     for (int j = 0; j <= i; j++) {
+        //         System.out.print("* ");
+        //         if (j >= 5) {
+        //             break; //. 5 se aage nhi jaye gaa condition 
+        //         }
+
+        //     }
+        //     System.out.println(" ");
+        // }
+
+
+
+
+        // for (int i = 0; i <= 8; i++) {
+        //     for (int j = 0; j <= i; j++) {
+        //         System.out.print("* ");
+        //         if (j >= 5) {
+        //             continue; // gaye bhi kar sakte ho
+        //         }
+
+        //     }
+        //     System.out.println(" ");
+        // }
+
+
+        /* --------inner and outer lable-------- */
+
+
+
+
+
+        // outer:for (int i = 0; i <= 8; i++) {
+        //     inner:for (int j = 0; j <= i; j++) {
+        //         System.out.print("* ");
+        //         if (j >= 5) {
+        //             break outer; 
+        //         }
+        //     }
+        //     System.out.println(" ");
+        // }
+        
+
+        /* --------Code block-------- */
+        
+
+        first:{
+                    System.out.println("hello 1");
+
+            second:{
+                    System.out.println("hello 2");
+
+                third:{
+                    System.out.println("hello 3");
+                }
             }
-
-            System.out.println();
         }
-
     }
 
 }
