@@ -64,16 +64,27 @@ public class forLoop {
         // System.out.println(i*j);
         // }
 
-        boolean b = true;
-        for (int i = 0; b; i++) {
-            if (i == 0) {
-                System.out.println(true);
-                b = false;
-            } else {
-                System.out.println(false);
-                b=true;
+        // boolean b = true;
+        // for (int i = 0; b; i++) {
+        // if (i == 0) {
+        // System.out.println(true);
+        // b = false;
+        // } else {
+        // System.out.println(false);
+        // b=true;
+        // }
+        // }
+
+        /* --------Nested loop-------- */
+        int n = 5;
+        for (int i = 0; i <= n; i++) {
+            for (int j = 0; j <= i; j++) {
+                System.out.print("X ");
             }
+
+            System.out.println();
         }
+
     }
 
 }
