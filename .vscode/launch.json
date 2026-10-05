@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "index",
+            "request": "launch",
+            "mainClass": "Array.index",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "forLoop",
             "request": "launch",
             "mainClass": "forLoop",
