@@ -97,8 +97,6 @@ public class forLoop {
 
         /* --------Nested loop-------- */
 
-
-
         // for (int i = 0; i <= 10; i++) {
         // if (i % 2 == 0) {
         // continue;
@@ -107,61 +105,111 @@ public class forLoop {
         // }
 
         // for (int i = 0; i <= 8; i++) {
-        //     for (int j = 0; j <= i; j++) {
-        //         System.out.print("* ");
-        //         if (j >= 5) {
-        //             break; //. 5 se aage nhi jaye gaa condition 
-        //         }
-
-        //     }
-        //     System.out.println(" ");
+        // for (int j = 0; j <= i; j++) {
+        // System.out.print("* ");
+        // if (j >= 5) {
+        // break; //. 5 se aage nhi jaye gaa condition
         // }
 
-
-
+        // }
+        // System.out.println(" ");
+        // }
 
         // for (int i = 0; i <= 8; i++) {
-        //     for (int j = 0; j <= i; j++) {
-        //         System.out.print("* ");
-        //         if (j >= 5) {
-        //             continue; // gaye bhi kar sakte ho
-        //         }
-
-        //     }
-        //     System.out.println(" ");
+        // for (int j = 0; j <= i; j++) {
+        // System.out.print("* ");
+        // if (j >= 5) {
+        // continue; // gaye bhi kar sakte ho
         // }
 
+        // }
+        // System.out.println(" ");
+        // }
 
         /* --------inner and outer lable-------- */
 
-
-
-
-
         // outer:for (int i = 0; i <= 8; i++) {
-        //     inner:for (int j = 0; j <= i; j++) {
-        //         System.out.print("* ");
-        //         if (j >= 5) {
-        //             break outer; 
-        //         }
-        //     }
-        //     System.out.println(" ");
+        // inner:for (int j = 0; j <= i; j++) {
+        // System.out.print("* ");
+        // if (j >= 5) {
+        // break outer;
         // }
-        
+        // }
+        // System.out.println(" ");
+        // }
 
         /* --------Code block-------- */
-        
 
-        first:{
-                    System.out.println("hello 1");
+        // first:{
+        // System.out.println("hello 1");
 
-            second:{
-                    System.out.println("hello 2");
+        // second:{
+        // System.out.println("hello 2");
 
-                third:{
-                    System.out.println("hello 3");
-                }
+        // third:{
+        // System.out.println("hello 3");
+        // }
+        // }
+        // }
+
+        // for (int i = 0; i < 5; i++) {
+        // for (int j = 0; j < i; j++) {
+        // System.out.print("* ");
+        // }
+        // System.out.println("");
+        // }
+
+        // for (int i = 0; i < 1; i++) {
+        // for (int j = 0; j < 6 ; j++) {
+        // System.out.print("* ");
+        // }
+        // System.out.println(" ");
+
+        // int n = 10;
+        // for (int i = 0; i <= n; i++) {
+        // System.out.println(n * i);
+        // }
+
+        /*-----1 se 100 tak kitne numbers 5 se divisible hain, count karo----- */
+
+        // for ( int i=1;i<=100;i++){
+        // if(i%5==0){
+        // System.out.println(i);
+        // }
+        // }
+
+        /* 5 का factorial निकालो: */
+        // int n = 5;
+        // int f = 1;
+        // for (int i = 1; i <= n; i++) {
+        // f = f * i;
+        // }
+        // System.out.println(f);
+
+        // for (int i = 5; i >= 1; i--) {
+        //     for (int j = 1; j <= i ; j++) {
+        //         System.out.print("* " );
+        //     }
+        //     System.out.println("");
+        // }
+
+        // for (int i = 1; i <= 5; i++)  {
+        //      // spaces
+        //     for (int j = 1; j <= 5-i ; j++) {
+        //         System.out.print(" " );
+        //     }
+        //     // stars
+        //     for(int j=1;j<=i;j++){
+        //         System.out.print("*");
+        //     }
+        //     System.out.println();
+        // }
+
+        for(int i=1;i<=5;i++){
+            for(int j=1;j<=i;j++){
+                System.out.print(j);
             }
+            System.out.println("");
         }
     }
 
