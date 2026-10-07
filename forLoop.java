@@ -212,11 +212,89 @@ public class forLoop {
         // System.out.println("");
         // }
 
-        for (int i = 5; i > 1; i--) {
-            for (int j = 5; j > i; j--) {
-                System.out.print(j+" ");
-            }
-            System.out.println(i);
-        }
+        // for (int i = 1; i <= 5; i++) {
+        // for (int j = 5; j >= i; j--) {
+        // System.out.print(j);
+        // }
+        // System.out.println();
+        // }
+
+        // for(int i=0;i<=5; i++){
+        // for (int j=5; j>=i; j--) {
+        // System.out.print(j);
+        // }
+        // System.out.println();
+        // }
+
+        // for(int i=1; i<=5; i++){
+        // for(int j=5; j>=i;j--){
+        // System.out.print(i);
+        // }
+        // System.out.println();
+        // }
+
+        // for(int i=5; i>=1; i--){
+        // for(int j=1; j<=i;j++){
+        // System.out.print(i+" ");
+        // }
+        // System.out.println();
+        // }
+
+        // int n=1;
+
+        // for (int i = 1; i <= 5; i++) {
+        // for (int j = 1; j <= i; j++) {
+        // System.out.print(i);
+        // }
+        // System.out.println();
+
+        // }
+
+        /*
+         * output
+         * 
+         * 1
+         * 22
+         * 333
+         * 4444
+         * 55555
+         * 
+         */
+
+        // for (int i = 5; i >= 1; i--) {
+        // for (int j = 1; j <= i; j++) {
+        // System.out.print(i+" ");
+
+        // }
+        // System.out.println();
+        // }
+
+        /*
+         * output
+         * 
+         * 55555
+         * 4444
+         * 333
+         * 22
+         * 1
+         */
+
+        // for (int i = 5; i >= 1; i--) {
+        // for (int j = i; j >= 1; j--) {
+        // System.out.print(j + " ");
+
+        // }
+        // System.out.println();
+        // }
+
+        /*output
+         * 
+         * 5 4 3 2 1
+         * 4 3 2 1
+         * 3 2 1
+         * 2 1
+         * 1
+         */
+
     }
 }
