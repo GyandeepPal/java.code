@@ -44,25 +44,70 @@ public class index {
         // System.out.println(masks[2][1]);
         // System.out.println(masks[2][2]);
 
-        int[][] masks = new int[3][3];
-        masks[0][0]=10;
-        masks[0][1]=20;
-        masks[0][2]=30;
+        /* nested loop */
+        // int[][] masks = new int[3][3];
+        // masks[0][0]=10;
+        // masks[0][1]=20;
+        // masks[0][2]=30;
 
-        masks[1][0]=40;
-        masks[1][1]=50;
-        masks[1][2]=60;
+        // masks[1][0]=40;
+        // masks[1][1]=50;
+        // masks[1][2]=60;
 
-        masks[2][0]=70;
-        masks[2][1]=80;
-        masks[2][2]=90;
+        // masks[2][0]=70;
+        // masks[2][1]=80;
+        // masks[2][2]=90;
 
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
-                System.out.print(masks[i][j]+" ");
+        // for (int i = 0; i < 3; i++) {
+        // for (int j = 0; j < 3; j++) {
+        // // System.out.print(" " + " Array of the length is = "+masks.length);
+        // System.out.print(masks[i][j]+" ");
+        // }
+        // // System.out.println(" Array of the length is ="+masks.length);
+        // System.out.println();
+
+        // }
+
+        // int[][] masks = new int[3][3];
+        // masks[0][0]=10;
+        // masks[0][1]=20;
+        // masks[0][2]=30;
+
+        // masks[1][0]=40;
+        // masks[1][1]=50;
+        // masks[1][2]=60;
+
+        // masks[2][0]=70;
+        // masks[2][1]=80;
+        // masks[2][2]=90;
+        // for (int i = 0; i < masks.length; i++) {
+        // for (int j = 0; j < masks[i].length; j++) {
+        // System.out.print(masks[i][j] +" ");
+        // }
+        // System.out.println();
+        // }
+
+        int[][][] masks = new int[3][3][3];
+        masks[0][0][0] = 10;
+        masks[0][0][1] = 20;
+        masks[0][0][2] = 30;
+
+        // masks[1][0][]=40;
+        // masks[1][1][]=50;
+        // masks[1][2][]=60;
+
+        // masks[2][0][]=70;
+        // masks[2][1][]=80;
+        // masks[2][2][]=90;
+        for (int i = 0; i < masks.length; i++) {
+            for (int j = 0; j < masks[i].length; j++) {
+                for (int k = 0; k < masks[i][j].length; k++) {
+                    System.out.print(masks[i][j][k] + " ");
+                }
+                System.out.println();
             }
             System.out.println();
-
         }
+
     }
 }
