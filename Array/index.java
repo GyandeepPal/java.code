@@ -14,13 +14,13 @@ public class index {
 
         // int arr[] = new int[30];
         // int x = 10;
-        // for (int i = 0; i < arr.length; i++) {
+        // for (int i = 0; i < 6; i++) {
         // arr[i] = x;
         // x++;
         // }
 
-        // for (int i = 0; i < arr.length; i++) {
-        // System.out.println(arr[31]);
+        // for (int i = 0; i <5; i++) {
+        // System.out.println(arr[3]);
         // }
 
         /*----2D Array */
@@ -87,10 +87,10 @@ public class index {
         // System.out.println();
         // }
 
-        int[][][] masks = new int[3][3][3];
-        masks[0][0][0] = 10;
-        masks[0][0][1] = 20;
-        masks[0][0][2] = 30;
+        // int[][][] masks = new int[3][3][3];
+        // masks[0][0][0] = 10;
+        // masks[0][0][1] = 20;
+        // masks[0][0][2] = 30;
 
         // masks[1][0][]=40;
         // masks[1][1][]=50;
@@ -99,12 +99,34 @@ public class index {
         // masks[2][0][]=70;
         // masks[2][1][]=80;
         // masks[2][2][]=90;
+        // for (int i = 0; i < masks.length; i++) {
+
+        // for (int j = 0; j < masks[i].length; j++) {
+
+        // for (int k = 0; k < masks[i][j].length; k++) {
+
+        // System.out.print(masks[i][j][k] + " ");
+        // }
+
+        // System.out.println();
+        // }
+
+        // System.out.println();
+        // }
+
+       
+
+        
+
+        int[][] masks = {
+                { 10 },
+                { 20, 30 },
+                { 50, 50, 60 }
+        };
+
         for (int i = 0; i < masks.length; i++) {
             for (int j = 0; j < masks[i].length; j++) {
-                for (int k = 0; k < masks[i][j].length; k++) {
-                    System.out.print(masks[i][j][k] + " ");
-                }
-                System.out.println();
+                System.out.print(masks[i][j] + " ");
             }
             System.out.println();
         }

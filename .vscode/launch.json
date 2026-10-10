@@ -8,6 +8,13 @@
             "type": "java",
             "name": "index",
             "request": "launch",
+            "mainClass": "Strings.index",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
+            "name": "index",
+            "request": "launch",
             "mainClass": "Array.index",
             "projectName": "java_a325078a"
         },
