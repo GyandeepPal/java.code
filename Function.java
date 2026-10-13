@@ -1,13 +1,20 @@
 import java.util.*;
-public class Function {
-    public static void printMyName(String Name){
-        System.out.println(Name);
-        return;
-    }
+    // static void main (){   //no input no putput
+    //     System.out.println("heloo");
+    // }
+
+
+
+    static void main (String name){   // input no putput
+         System.out.println("heloo"+name);
+     }
+
+    // static int getNum(){
+        
+    //    return  10;
+    // }
+
     public static void main(String[] args) {
-        try (Scanner Gyan = new Scanner(System.in)) {
-            String name = Gyan.next();
-            printMyName(name);
-        }
-    }
+        // getNum();
+        main(args);
 }
