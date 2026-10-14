@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "printReversNumber",
+            "request": "launch",
+            "mainClass": "Recursion.printReversNumber",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "funOverLoading",
             "request": "launch",
             "mainClass": "funOverLoading",
