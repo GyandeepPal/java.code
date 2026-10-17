@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Dublicate",
+            "request": "launch",
+            "mainClass": "Array.Dublicate",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
+            "name": "index",
+            "request": "launch",
+            "mainClass": "oops.index",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "printReversNumber",
             "request": "launch",
             "mainClass": "Recursion.printReversNumber",
