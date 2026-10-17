@@ -1,30 +1,18 @@
 package Array;
 
 public class Dublicate {
-
     public static void main(String[] args) {
 
-        int nums[] = { 1, 1, 2, 2, 3, 3 };
-
-        int i = 0;
-        int j = 1;
-
-        while (j < nums.length) {
-
-            if (nums[i] != nums[j]) {
-                i++;
-                nums[i] = nums[j];
+        int nums[] = { 3, 2, 2, 3 };
+        int val = 3;
+        int k=0;
+       
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != val) {
+                nums[k] = nums[i];
+                k++;
             }
-
-            j++;
         }
-
-        int k = i + 1;
-
-        for (int x = 0; x < k; x++) {
-            System.out.print(nums[x] + " ");
-        }
-
-        System.out.println("\nCount = " + k);
+        System.out.println(k);
     }
-}
+};
