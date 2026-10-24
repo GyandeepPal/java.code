@@ -14,7 +14,7 @@ class Student {
 
 }
 
-public class index {
+public class method {
 
     public static void main(String[] args) {
 
