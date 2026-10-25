@@ -1,7 +1,5 @@
 package oops;
 
-// import javax.print.DocFlavor.STRING;
-
 class Student {
     String name;
     int age;
@@ -11,7 +9,6 @@ class Student {
     void study() {
         System.out.println(name + " is studying");
     }
-
 }
 
 public class method {
@@ -27,8 +24,9 @@ public class method {
 
         s1.study();
 
-        System.out.println("Name is. " + s1.name + " " + "RollNums is. " + " " + " " + s1.RollNums + "College is. "
-                + " " + " " + s1.College + "Age is. " + s1.age);
-
+        System.out.println("Name: " + s1.name);
+        System.out.println("Age: " + s1.age);
+        System.out.println("Roll Number: " + s1.RollNums);
+        System.out.println("College: " + s1.College);
     }
 }

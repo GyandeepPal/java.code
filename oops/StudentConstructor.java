@@ -1,6 +1,6 @@
 package oops;
 
-public class constructor {
+public class StudentConstructor {
     public static void main(String[] args) {
         Student S1 = new Student("Gyan","Baderia", 241126, true);
         
