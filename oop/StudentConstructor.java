@@ -1,4 +1,4 @@
-package oops;
+package oop;
 
 public class StudentConstructor {
     public static void main(String[] args) {

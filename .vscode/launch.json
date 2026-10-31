@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Deep",
+            "request": "launch",
+            "mainClass": "oop.Deep",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
+            "name": "newMethod",
+            "request": "launch",
+            "mainClass": "oops.newMethod",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "StudentConstructor",
             "request": "launch",
             "mainClass": "oops.StudentConstructor",

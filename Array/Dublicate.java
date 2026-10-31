@@ -1,9 +1,11 @@
 package Array;
 
+import Recursion.removeDuplicate;
+
 public class Dublicate {
     public static void main(String[] args) {
 
-        int nums[] = { 3, 2, 2, 3 };
+        int nums[] = { 3, 2, 2, 3,32,3,4 };
         int val = 3;
         int k=0;
        
@@ -14,5 +16,7 @@ public class Dublicate {
             }
         }
         System.out.println(k);
+
+        
     }
 };
