@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayTraversal",
+            "request": "launch",
+            "mainClass": "Array.ArrayTraversal",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "Deep",
             "request": "launch",
             "mainClass": "oop.Deep",
