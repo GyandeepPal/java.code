@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Diagonal",
+            "request": "launch",
+            "mainClass": "Array.Diagonal",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "ArrayTraversal",
             "request": "launch",
             "mainClass": "Array.ArrayTraversal",
