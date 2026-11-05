@@ -179,28 +179,43 @@ public class Practice {
         // int Max = -1;
 
         // for (int i = 0; i < arr.length; i++) {
-        //     if (arr[i] % 2 == 0) {
+        // if (arr[i] % 2 == 0) {
 
-        //         if (arr[i] > Max) {
-        //             Max = arr[i];
-        //         }
+        // if (arr[i] > Max) {
+        // Max = arr[i];
+        // }
 
-        //     }
+        // }
 
         // }
 
         // System.out.println(Max);
 
-        {/*Maximum Odd Number */}
-        int arr[] = {2, 5, 18, 3, 10, 7, 4, 9};
-        int maxOdd = -1;
-        for(int i=0; i<arr.length; i++){
-            if(arr[i]%2==1){
-                if(arr[i]>maxOdd){
-                    maxOdd=arr[i];
+        {
+            /* Maximum Odd Number */}
+        // int arr[] = {2, 5, 18, 3, 10, 7, 4, 9};
+        // int maxOdd = -1;
+        // for(int i=0; i<arr.length; i++){
+        // if(arr[i]%2==1){
+        // if(arr[i]>maxOdd){
+        // maxOdd=arr[i];
+        // }
+        // }
+        // }
+        // System.out.println(maxOdd);
+
+        {
+            /* Minimum Even Number */}
+
+        int arr[] = { 12, 5, 18, 3, 10, 7, 4, 9 };
+        int minEven = Integer.MAX_VALUE;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] % 2 == 0) {
+                if (arr[i] < minEven) {
+                    minEven = arr[i];
                 }
             }
         }
-        System.out.println(maxOdd);
+        System.out.println(minEven);
     }
 }
