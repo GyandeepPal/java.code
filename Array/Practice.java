@@ -175,20 +175,32 @@ public class Practice {
 
         {
             /* Max evenNumber */}
-        int arr[] = { 2, 5, 18, 3, 10, 7, 4, 9 };
-        int Max = -1;
+        // int arr[] = { 2, 5, 18, 3, 10, 7, 4, 9 };
+        // int Max = -1;
 
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] % 2 == 0) {
-                
-                if (arr[i] > Max) {
-                    Max = arr[i];
+        // for (int i = 0; i < arr.length; i++) {
+        //     if (arr[i] % 2 == 0) {
+
+        //         if (arr[i] > Max) {
+        //             Max = arr[i];
+        //         }
+
+        //     }
+
+        // }
+
+        // System.out.println(Max);
+
+        {/*Maximum Odd Number */}
+        int arr[] = {2, 5, 18, 3, 10, 7, 4, 9};
+        int maxOdd = -1;
+        for(int i=0; i<arr.length; i++){
+            if(arr[i]%2==1){
+                if(arr[i]>maxOdd){
+                    maxOdd=arr[i];
                 }
-
             }
-
         }
-
-        System.out.println(Max);
+        System.out.println(maxOdd);
     }
 }
