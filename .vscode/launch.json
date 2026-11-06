@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "aggregation",
+            "request": "launch",
+            "mainClass": "Array.aggregation",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "agregation",
             "request": "launch",
             "mainClass": "Array.agregation",
