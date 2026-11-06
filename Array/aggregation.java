@@ -1,6 +1,6 @@
 package Array;
 
-public class agregation {
+public class aggregation {
     public static void main(String[] args) {
         int arr[] = {2, 5, 8, 3, 10, 7, 4, 9};
         int sum =0;
