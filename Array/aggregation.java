@@ -54,39 +54,57 @@ public class aggregation {
 
         {
             /*
-             *Minimum Even Number, Maximum Odd Number, Minimum Odd
+             * Minimum Even Number, Maximum Odd Number, Minimum Odd
              * Number
              */}
-        int arr[] = { 1, 2, 3, 4, 3, 5, 4, 6, 5, 7, 5 };
-        int evenMax = Integer.MIN_VALUE;
-        int evenMin = Integer.MAX_VALUE;
 
-        int oddMax = Integer.MIN_VALUE;
-        int oddMin = Integer.MAX_VALUE;
+        // int arr[] = { 1, 2, 3, 4, 3, 5, 4, 6, 5, 7, 5 };
+        // int evenMax = Integer.MIN_VALUE;
+        // int evenMin = Integer.MAX_VALUE;
+
+        // int oddMax = Integer.MIN_VALUE;
+        // int oddMin = Integer.MAX_VALUE;
+        // for (int i = 0; i < arr.length; i++) {
+        // if (arr[i] % 2 == 0) {
+        // if (arr[i] < evenMin) {
+        // evenMin = arr[i];
+        // }
+        // if (arr[i] > evenMax) {
+        // evenMax = arr[i];
+        // }
+        // }
+        // if (arr[i] % 2 != 0) {
+        // if (arr[i] > oddMax) {
+        // oddMax = arr[i];
+        // }
+        // if (arr[i] < oddMin) {
+        // oddMin = arr[i];
+        // }
+
+        // }
+        // }
+        // System.out.println(evenMax);
+        // System.out.println(evenMin);
+        // System.out.println(oddMax);
+        // System.out.println(oddMin);
+
+        {
+            /* Second Largest Element */}
+
+        // int arr[] = { 12, 35, 1, 10, 34, 1 };
+        int arr[] = {10, 20, 20, 5, 15};
+
+        int largest = Integer.MIN_VALUE;
+        int secondLargest = Integer.MIN_VALUE;
+
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] % 2 == 0) {
-                if (arr[i] < evenMin) {
-                    evenMin = arr[i];
-                    
-                }
-                if (arr[i] > evenMax) {
-                    evenMax = arr[i];
-                }
-            }
-            if (arr[i] % 2 != 0) {
-                if (arr[i] > oddMax) {
-                    oddMax = arr[i];
-                }
-                if (arr[i] < oddMin) {
-                    oddMin = arr[i];
-                }
-
+            if (arr[i] > largest) {
+                largest=arr[i];
+            } else if (arr[i] < largest && arr[i] > secondLargest) {
+                secondLargest=arr[i];
             }
         }
-        // System.out.println(evenMax);
-        System.out.println(evenMin);
-        System.out.println(oddMax);
-        System.out.println(oddMin);
-
+        System.out.println(largest);
+        System.out.println(secondLargest);
     }
 }
