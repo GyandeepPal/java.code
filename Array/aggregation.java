@@ -92,17 +92,36 @@ public class aggregation {
             /* Second Largest Element */}
 
         // int arr[] = { 12, 35, 1, 10, 34, 1 };
-        int arr[] = {10, 20, 20, 5, 15};
+        // int arr[] = {10, 20, 20, 5, 15};
+        // int arr[] = {5, 5, 5, 5};
 
+        // int largest = Integer.MIN_VALUE;
+        // int secondLargest = Integer.MIN_VALUE;
+
+        // for (int i = 0; i < arr.length; i++) {
+        // if (arr[i] > largest) {
+        // largest=arr[i];
+        // } else if (arr[i] < largest && arr[i] > secondLargest) {
+        // secondLargest=arr[i];
+        // }
+        // }
+        // System.out.println(largest);
+        // System.out.println(secondLargest);
+
+        {
+            /* With the else if condition */}
+        int arr[] = { 5, 5, 5, 5, 4, 6 };
         int largest = Integer.MIN_VALUE;
         int secondLargest = Integer.MIN_VALUE;
 
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] > largest) {
-                largest=arr[i];
+                secondLargest = largest;
+                largest = arr[i];
             } else if (arr[i] < largest && arr[i] > secondLargest) {
-                secondLargest=arr[i];
+                secondLargest = arr[i];
             }
+
         }
         System.out.println(largest);
         System.out.println(secondLargest);
