@@ -225,12 +225,14 @@ public class Practice {
         int Largest = 0;
         int secondLargest = 0;
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] % 2 == 0) {
-                if (arr[i] > Largest) {
-                    secondLargest = Largest;
-                    Largest = arr[i];
-                }
+            if (arr[i] > Largest) {
+                secondLargest = Largest;
+                Largest = arr[i];
+            }else if(arr[i]>secondLargest){
+                
+                secondLargest=arr[i];
             }
+
         }
         System.out.println(secondLargest);
     }
