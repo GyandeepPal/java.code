@@ -110,7 +110,8 @@ public class aggregation {
 
         {
             /* With the else if condition */}
-        int arr[] = { 5, 5, 5, 5, 4, 6 };
+        // int arr[] = { 5, 5, 5, 5, 4, 6 };
+        int arr[] = { 30, 10, 50, 20, 40 };
         int largest = Integer.MIN_VALUE;
         int secondLargest = Integer.MIN_VALUE;
 

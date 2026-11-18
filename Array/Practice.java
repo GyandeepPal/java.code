@@ -193,28 +193,45 @@ public class Practice {
 
         {
             /* Maximum Odd Number */}
-        int arr[] = { 2, 5, 18, 3, 10, 7, 4, 9 };
-        int maxOdd = -1;
+        // int arr[] = { 2, 5, 18, 3, 10, 7, 4, 9 };
+        // int maxOdd = -1;
+        // for (int i = 0; i < arr.length; i++) {
+        // if (arr[i] % 2 == 1) {
+        // if (arr[i] > maxOdd) {
+        // maxOdd = arr[i];
+        // }
+        // }
+        // }
+        // System.out.println(maxOdd);
+
+        {
+            /* Minimum Even Number */}
+
+        // int arr1[] = { 12, 5, 18, 3, 10, 7, 4, 9 };
+        // int minEven = Integer.MAX_VALUE;
+        // for (int i = 0; i < arr1.length; i++) {
+        // if (arr[i] % 2 == 0) {
+        // if (arr1[i] < minEven) {
+        // minEven = arr1[i];
+        // }
+        // }
+        // }
+        // System.out.println(minEven);
+
+        {
+            /* Second Largest Even Number in an Array */}
+
+        int arr[] = { 2, 8, 4, 12, 6, 10 };
+        int Largest = 0;
+        int secondLargest = 0;
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] % 2 == 1) {
-                if (arr[i] > maxOdd) {
-                    maxOdd = arr[i];
-                }
-            }
-        }
-        System.out.println(maxOdd);
-
-            {/* Minimum Even Number */}
-
-        int arr1[] = { 12, 5, 18, 3, 10, 7, 4, 9 };
-        int minEven = Integer.MAX_VALUE;
-        for (int i = 0; i < arr1.length; i++) {
             if (arr[i] % 2 == 0) {
-                if (arr1[i] < minEven) {
-                    minEven = arr1[i];
+                if (arr[i] > Largest) {
+                    secondLargest = Largest;
+                    Largest = arr[i];
                 }
             }
         }
-        System.out.println(minEven);
+        System.out.println(secondLargest);
     }
 }
