@@ -221,19 +221,39 @@ public class Practice {
         {
             /* Second Largest Even Number in an Array */}
 
-        int arr[] = { 2, 8, 4, 12, 6, 10 };
-        int Largest = 0;
-        int secondLargest = 0;
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] > Largest) {
-                secondLargest = Largest;
-                Largest = arr[i];
-            }else if(arr[i]>secondLargest){
-                
-                secondLargest=arr[i];
-            }
+        // int arr[] = { 2, 8, 4, 12, 6, 10 };
+        // int Largest = 0;
+        // int secondLargest = 0;
+        // for (int i = 0; i < arr.length; i++) {
+        // if (arr[i] > Largest) {
+        // secondLargest = Largest;
+        // Largest = arr[i];
+        // }else if(arr[i]>secondLargest){
 
+        // secondLargest=arr[i];
+        // }
+
+        // }
+        // System.out.println("Largest = " + Largest);
+        // System.out.println("Second Largest = " + secondLargest);
+
+        {
+            /* Second Smallest Even Number in an Array */}
+        int arr[] = { 18, 4, 12, 2, 8, 6 };
+        int smallest = Integer.MAX_VALUE;
+        int secondSmallest = Integer.MAX_VALUE;
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] % 2 == 0) {
+                if (arr[i] < smallest) {
+                    secondSmallest = smallest;
+                    smallest = arr[i];
+                } else if (arr[i] < secondSmallest && arr[i] != smallest) {
+                    secondSmallest = arr[i];
+                }
+            }
         }
-        System.out.println(secondLargest);
+        System.out.println("Largest = " + smallest);
+        System.out.println("Second Smallest = " + secondSmallest);
     }
 }
