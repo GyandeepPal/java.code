@@ -283,30 +283,55 @@ public class Practice {
         // System.out.println("secondLargest " + secondLargest);
         // System.out.println("thirdLargest " + thirdLargest);
 
+        // int arr[] = { 2, 18, 6, 12, 4, 20, 10, 16 };
+        // int Largest = Integer.MIN_VALUE;
+        // int secondLargest = Integer.MIN_VALUE;
+        // int thirdLargest = Integer.MIN_VALUE;
+        // for (int i = 0; i < arr.length; i++) {
+        // if (arr[i] % 2 == 0) {
+        // if (arr[i] > Largest) {
+
+        // thirdLargest = secondLargest;
+        // secondLargest = Largest;
+        // Largest = arr[i];
+
+        // }else if (arr[i]>secondLargest) {
+        // thirdLargest=secondLargest;
+        // secondLargest=arr[i];
+        // }else if (arr[i]>thirdLargest) {
+        // thirdLargest=arr[i];
+        // }
+        // }
+
+        // }
+
+        // System.out.println("Largest " + Largest);
+        // System.out.println("secondLargest " + secondLargest);
+        // System.out.println("thirdLargest " + thirdLargest);
+
+        {
+            /* 3rd Smallest Even Number */}
         int arr[] = { 2, 18, 6, 12, 4, 20, 10, 16 };
-        int Largest = Integer.MIN_VALUE;
-        int secondLargest = Integer.MIN_VALUE;
-        int thirdLargest = Integer.MIN_VALUE;
+        int Smallest = Integer.MAX_VALUE;
+        int secondSmallest = Integer.MAX_VALUE;
+        int thirdSmallest = Integer.MAX_VALUE;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] % 2 == 0) {
-                if (arr[i] > Largest) {
+                if (arr[i] < Smallest) {
+                    thirdSmallest = secondSmallest;
+                    secondSmallest = Smallest;
+                    Smallest = arr[i];
+                } else if (arr[i] < secondSmallest) {
+                    thirdSmallest = secondSmallest;
+                    secondSmallest = arr[i];
+                } else if (arr[i] < thirdSmallest) {
+                    thirdSmallest = arr[i];
 
-                    thirdLargest = secondLargest;
-                    secondLargest = Largest;
-                    Largest = arr[i];
-
-                }else if (arr[i]>secondLargest) {
-                    thirdLargest=secondLargest;
-                    secondLargest=arr[i];
-                }else if (arr[i]>thirdLargest) {
-                    thirdLargest=arr[i];
                 }
             }
-
         }
-
-        System.out.println("Largest " + Largest);
-        System.out.println("secondLargest " + secondLargest);
-        System.out.println("thirdLargest " + thirdLargest);
+        System.out.println("Smallest. "+Smallest);
+        System.out.println("secondSmallest. "+secondSmallest);
+        System.out.println("thirdSmallest. "+thirdSmallest);
     }
 }
