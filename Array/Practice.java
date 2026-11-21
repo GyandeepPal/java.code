@@ -219,119 +219,24 @@ public class Practice {
         // System.out.println(minEven);
 
         {
-            /* Second Largest Even Number in an Array */}
+            /* array ke zeros ko last mein bhejna hai */}
 
-        // int arr[] = { 2, 8, 4, 12, 6, 10 };
-        // int Largest = 0;
-        // int secondLargest = 0;
-        // for (int i = 0; i < arr.length; i++) {
-        // if (arr[i] > Largest) {
-        // secondLargest = Largest;
-        // Largest = arr[i];
-        // }else if(arr[i]>secondLargest){
+        int arr[] = {0, 5, 0, 3, 8, 0, 2};
+        int index = 0;
 
-        // secondLargest=arr[i];
-        // }
-
-        // }
-        // System.out.println("Largest = " + Largest);
-        // System.out.println("Second Largest = " + secondLargest);
-
-        {
-            /* Second Smallest Even Number in an Array */}
-        // int arr[] = { 18, 4, 12, 2, 8, 6 };
-        // int smallest = Integer.MAX_VALUE;
-        // int secondSmallest = Integer.MAX_VALUE;
-
-        // for (int i = 0; i < arr.length; i++) {
-        // if (arr[i] % 2 == 0) {
-        // if (arr[i] < smallest) {
-        // secondSmallest = smallest;
-        // smallest = arr[i];
-        // } else if (arr[i] < secondSmallest && arr[i] != smallest) {
-        // secondSmallest = arr[i];
-        // }
-        // }
-        // }
-        // System.out.println("Largest = " + smallest);
-        // System.out.println("Second Smallest = " + secondSmallest);
-        // System.out.println(". ");
-        {
-            /* Challenge: 3rd Largest Even Number */}
-
-        // int arr[] = { 2, 18, 6, 12, 4, 20, 10, 16 };
-        // int Largest = 0;
-        // int secondLargest = 0;
-        // int thirdLargest = 0;
-        // for (int i = 0; i < arr.length; i++) {
-        // if (arr[i] % 2 == 0) {
-        // if (arr[i] > Largest) {
-        // thirdLargest = secondLargest;
-        // secondLargest = Largest;
-        // Largest = arr[i];
-
-        // } else if (arr[i] > secondLargest) {
-        // thirdLargest = secondLargest;
-        // secondLargest = arr[i];
-        // } else if (arr[i] > thirdLargest) {
-        // thirdLargest = arr[i];
-
-        // }
-        // }
-        // }
-        // System.out.println("Largest " + Largest);
-        // System.out.println("secondLargest " + secondLargest);
-        // System.out.println("thirdLargest " + thirdLargest);
-
-        // int arr[] = { 2, 18, 6, 12, 4, 20, 10, 16 };
-        // int Largest = Integer.MIN_VALUE;
-        // int secondLargest = Integer.MIN_VALUE;
-        // int thirdLargest = Integer.MIN_VALUE;
-        // for (int i = 0; i < arr.length; i++) {
-        // if (arr[i] % 2 == 0) {
-        // if (arr[i] > Largest) {
-
-        // thirdLargest = secondLargest;
-        // secondLargest = Largest;
-        // Largest = arr[i];
-
-        // }else if (arr[i]>secondLargest) {
-        // thirdLargest=secondLargest;
-        // secondLargest=arr[i];
-        // }else if (arr[i]>thirdLargest) {
-        // thirdLargest=arr[i];
-        // }
-        // }
-
-        // }
-
-        // System.out.println("Largest " + Largest);
-        // System.out.println("secondLargest " + secondLargest);
-        // System.out.println("thirdLargest " + thirdLargest);
-
-        {
-            /* 3rd Smallest Even Number */}
-        int arr[] = { 2, 18, 6, 12, 4, 20, 10, 16 };
-        int Smallest = Integer.MAX_VALUE;
-        int secondSmallest = Integer.MAX_VALUE;
-        int thirdSmallest = Integer.MAX_VALUE;
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] % 2 == 0) {
-                if (arr[i] < Smallest) {
-                    thirdSmallest = secondSmallest;
-                    secondSmallest = Smallest;
-                    Smallest = arr[i];
-                } else if (arr[i] < secondSmallest) {
-                    thirdSmallest = secondSmallest;
-                    secondSmallest = arr[i];
-                } else if (arr[i] < thirdSmallest) {
-                    thirdSmallest = arr[i];
-
-                }
+            if (arr[i] != 0) {
+                arr[index] = arr[i];
+                index++;
             }
         }
-        System.out.println("Smallest. "+Smallest);
-        System.out.println("secondSmallest. "+secondSmallest);
-        System.out.println("thirdSmallest. "+thirdSmallest);
-    }
+        // Remaining positions mein zero fill
+        for (int i = index; i < arr.length; i++) {
+            arr[i] = 0;
+        }
+
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+    } 
 }
