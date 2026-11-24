@@ -221,7 +221,8 @@ public class Practice {
         {
             /* array ke zeros ko last mein bhejna hai */}
 
-        int arr[] = {0, 5, 0, 3, 8, 0, 2};
+        // int arr[] = {0, 5, 0, 3, 8, 0, 2};
+        int arr[] = { 0, 5, 0, 3, 8, 0, 2 };
         int index = 0;
 
         for (int i = 0; i < arr.length; i++) {
@@ -238,5 +239,10 @@ public class Practice {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
-    } 
+
+        // int index = 0;
+        // for (int i = 0; i < arr.length; i++) {
+
+        // }
+    }
 }
