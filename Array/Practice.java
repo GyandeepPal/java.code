@@ -251,15 +251,27 @@ public class Practice {
         {
             /* Swapping */}
 
-        int arr[] = { 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 };
+        // int arr[] = { 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 };
+        // int tamp;
+        // for (int i = 0; i < arr.length / 2; i++) {
+        // tamp=arr[i];
+        // arr[i]=arr[arr.length-1-i];
+        // arr[arr.length-1-i]=tamp;
+        // System.out.println(arr[i]);
+        // }
+
+        {
+            /* Left Rotate Array by 1 */}
+
+        int arr[] = { 10, 20, 30, 40, 50, 60 };
         int tamp;
-        int a;
-        int b;
-        for (int i = 0; i < arr.length / 2; i++) {
-            tamp=arr[i];
-            arr[i]=arr[arr.length-1-i];
-            arr[arr.length-1-i]=tamp;
-            System.out.println(arr[i]);
+        tamp = arr[0];
+        for (int i = 0; i < arr.length - 1; i++) {
+            arr[i] = arr[i + 1];
+        }
+        arr[arr.length - 1] = tamp;
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i] + " ");
         }
     }
 }
