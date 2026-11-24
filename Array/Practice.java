@@ -222,27 +222,44 @@ public class Practice {
             /* array ke zeros ko last mein bhejna hai */}
 
         // int arr[] = {0, 5, 0, 3, 8, 0, 2};
-        int arr[] = { 0, 5, 0, 3, 8, 0, 2 };
-        int index = 0;
-
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] != 0) {
-                arr[index] = arr[i];
-                index++;
-            }
-        }
-        // Remaining positions mein zero fill
-        for (int i = index; i < arr.length; i++) {
-            arr[i] = 0;
-        }
-
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
-        }
-
+        // int arr[] = { 0, 5, 0, 3, 8, 0, 2 };
         // int index = 0;
-        // for (int i = 0; i < arr.length; i++) {
 
+        // for (int i = 0; i < arr.length; i++) {
+        // if (arr[i] != 0) {
+        // arr[index] = arr[i];
+        // index++;
         // }
+        // }
+        // // Remaining positions mein zero fill
+        // for (int i = index; i < arr.length; i++) {
+        // arr[i] = 0;
+        // }
+
+        // for (int i = 0; i < arr.length; i++) {
+        // System.out.print(arr[i] + " ");
+        // }
+
+        // int arr[] = { 10, 20, 30, 40, 50, 60 };
+
+        // for (int i = arr.length - 1; i >= 1; i--) {
+
+        // arr[i] = arr[i - 0];
+        // System.out.print(arr[i] + " ");
+        // }
+
+        {
+            /* Swapping */}
+
+        int arr[] = { 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 };
+        int tamp;
+        int a;
+        int b;
+        for (int i = 0; i < arr.length / 2; i++) {
+            tamp=arr[i];
+            arr[i]=arr[arr.length-1-i];
+            arr[arr.length-1-i]=tamp;
+            System.out.println(arr[i]);
+        }
     }
 }
