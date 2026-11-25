@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Swapping",
+            "request": "launch",
+            "mainClass": "Array.Swapping",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "aggregation",
             "request": "launch",
             "mainClass": "Array.aggregation",
