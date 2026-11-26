@@ -2,8 +2,8 @@ package Array;
 
 public class Swapping {
     public static void main(String[] args) {
-        {
-            /* Left Rotate Array by 1 */}
+        
+            /* Left Rotate Array by 1 */
 
         // int arr[] = { 10, 20, 30, 40, 50, 60 };
         // int tamp;
@@ -16,8 +16,8 @@ public class Swapping {
         // System.out.println(arr[i] + " ");
         // }
 
-        {
-            /* Count Frequency of a Number */}
+        
+            /* Count Frequency of a Number */
 
         // int arr[] = { 10, 20, 10, 30, 40, 10, 20, 10 };
         // int target = 10;
@@ -31,7 +31,7 @@ public class Swapping {
         // System.out.println(count);
 
 
-        {/* First & Last Occurrence */}
+        /* First & Last Occurrence */
 
         int arr[] = { 5, 8, 2, 8, 4, 8, 9, 8 };
         int target = 8;
