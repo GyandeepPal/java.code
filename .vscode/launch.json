@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "shoring",
+            "request": "launch",
+            "mainClass": "Array.shoring",
+            "projectName": "java_a325078a"
+        },
+        {
+            "type": "java",
             "name": "Swapping",
             "request": "launch",
             "mainClass": "Array.Swapping",
